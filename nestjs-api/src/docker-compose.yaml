@@ -6,7 +6,7 @@ services:
     ports:
       - 3000:3000
   db:
-    build: ./.docker/mongodb
+    build: ../../mongodb/.docker/mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
